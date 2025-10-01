@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.calc {
+  border: 2px solid #444;
+  border-radius: 10px;
+  padding: 15px;
+  background: #f9f9f9;
+}
+
+.display {
+  width: 245px;
+  height: 40px;
+  margin-bottom: 10px;
+  text-align: right;
+  padding: 5px;
+  font-size: 20px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  gap: 5px;
+}
+
+button {
+  height: 40px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ddd;
+}
