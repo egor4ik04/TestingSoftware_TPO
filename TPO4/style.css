@@ -1,0 +1,29 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+input, textarea {
+  width: 100%;
+  padding: 6px;
+  margin: 6px 0;
+}
+.success {
+  color: green;
+  display: none;
+  margin-top: 10px;
+}
+.error {
+  color: red;
+  display: none;
+  margin-top: 10px;
+}
+.visible {
+  display: block;
+}
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
